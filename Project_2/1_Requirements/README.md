@@ -7,20 +7,20 @@ A BiCom system is the extention of the unidirectional RKE to bidirectional RKE s
 ## High Level Requirements:
 | ID | Description | Category | Status |
 | --- | --- | --- | --- |
-| HR01 |It shall check for encryption  | Technical | IMPLEMENTED  |
-| HR02 | It shall print the window status | Technical |  IMPLEMENTED |
-| HR03 | It shall print the alarm status | Technical |  IMPLEMENTED |
-| HR04 | It shall print the battery information | Technical | IMPLEMENTED  |
-| HR05 | It shall print the door status | Technical | IMPLEMENTED  |
+| HLR01 |It shall check for encryption  | Technical | IMPLEMENTED  |
+| HLR02 | It shall print the window status | Technical |  IMPLEMENTED |
+| HLR03 | It shall print the alarm status | Technical |  IMPLEMENTED |
+| HLR04 | It shall print the battery information | Technical | IMPLEMENTED  |
+| HLR05 | It shall print the door status | Technical | IMPLEMENTED  |
 
 ## Low level Requirements:
 | ID | Description | HLR ID | Status |
 | --- | --- | --- | --- |
-| LR01 | To check if 2+3=5 | HR01  | IMPLEMENTED  |
-| LR02 | The Blue switch should turn ON | HR02 |  IMPLEMENTED |
-| LR03 | The Blue switch must be pressed two times  | HR03 |  IMPLEMENTED |
-| LR04 | The Blue switch must be pressed three times | HR04 | IMPLEMENTED  |
-| LR05 | The Blue switch must be pressed four times | HR05 | IMPLEMENTED  |
+| LLR01 | To check if 2+3=5 | HR01  | IMPLEMENTED  |
+| LLR02 | The Blue switch should turn ON | HR02 |  IMPLEMENTED |
+| LLR03 | The Blue switch must be pressed two times  | HR03 |  IMPLEMENTED |
+| LLR04 | The Blue switch must be pressed three times | HR04 | IMPLEMENTED  |
+| LLR05 | The Blue switch must be pressed four times | HR05 | IMPLEMENTED  |
 
 # SWOT Analysis
 
