@@ -13,4 +13,5 @@
 
 ## Structural Diagram
 
-![Structural Diagram](https://user-images.githubusercontent.com/99074356/157876530-1bd7fdb7-703c-4dd6-a2f4-5ec3b056480b.png)
+
+![Structural Diagram](https://user-images.githubusercontent.com/99074356/157876755-109d97cd-a4a3-437c-a4a6-13993be4c39d.png)
