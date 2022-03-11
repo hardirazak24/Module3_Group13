@@ -19,6 +19,6 @@
 | `6_ImagesAndVideos` | Images and Videos of the project |
 
 ## Workflows
-| CppCheck | Codacy | Codacy | 
-| ----- | -------- | -------| 
+| CppCheck | Build | Git Inspector| Codacy | Codacy | 
+| ----- | -------- | -------|----|-------|
 | [![cppcheck-action](https://github.com/KavyaHarigol/Module3_Group13/actions/workflows/cpp.yml/badge.svg)](https://github.com/KavyaHarigol/Module3_Group13/actions/workflows/cpp.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e018e2f4a73149f0bed4af29d2bb9fd4)](https://www.codacy.com/gh/OmkarChitragar/Module3_Group13/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OmkarChitragar/Module3_Group13&amp;utm_campaign=Badge_Grade)  |   |
