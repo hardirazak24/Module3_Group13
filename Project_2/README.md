@@ -1,6 +1,6 @@
 # BICom System
 
-## Intrdoction
+## Introduction
 
 ## Workflows
 | CppCheck | Codiga | Codacy | 
