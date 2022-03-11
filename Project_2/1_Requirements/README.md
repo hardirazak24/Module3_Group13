@@ -24,4 +24,8 @@ A BiCom system is the extention of the unidirectional RKE to bidirectional RKE s
 
 # SWOT Analysis
 
+![Screenshot (292)](https://user-images.githubusercontent.com/42509490/157890123-973f89c5-c917-4acc-a0fc-30f924fd807e.png)
+
 # 5W's and 1H
+
+![Screenshot (293)](https://user-images.githubusercontent.com/42509490/157894011-c2e0d5e4-c2b9-4d57-9d15-df6977a8cec7.png)
