@@ -1,13 +1,7 @@
 # BICom System
 
 ## Introduction
-
-* Bicom system: A BiCom system is the extention of the unidirectional RKE to bidirectional RKE system.
-* keyfob -> car (like a unidirectional RKE system) -> keyfob (car status information for displaying on the keyfob by  display). 
-* Displaying of the car window status is implemented in this project by showing all LED on on a single click on the STM32f407vg board and alarm status is shown by all LED off on
-  two clicks on the board. Displaying of car battery info is implemented in this project by showing all LED on in clockwise direction on three clicks and door status is shown by
-  all LED on in anti-clockwise direction on four clicks on the STM board.
-
+BiCom system is a communication system between the car and its remote(Keyfob). The system gets this name as it performs two way communication (i.e) from remote to car and car to remote.This project is an extension of previous project. In the previous project we had seen unidirectional communication from remote to car while in this project we would see bi-directional communication from remote to car and vice versa. The functionalities here are the Window status, alarm status, car battery information, door status.These four functionalities will be implemented in this project.
 ## Workflows
 | CppCheck | Build | Git Inspector| Codacy | Codiga | 
 | ----- | -------- | -------|---|---|
