@@ -1,11 +1,13 @@
 # Description
 
-Remote keyless entry (RKE) system is a system designed to remotely lock or unlock access to automobiles. 
-- RKE transmission requires two components: a transmitter and a receiver. 
-  - Transmitter - RKE key fob, other ID device with RKE integrated 
-  -	Receiver - Body Control ECU, other ECU with integrated RKE 
--	 RKE operates by broadcasting radio waves on a particular frequency unidirectionally. 
--	RKE systems implement encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams. 
+* RKE : The system is designed to remotely lock or unlock access to automobiles. The transmission between the remote and automobile is achieved with two components which is a
+  transmitter and a receiver.
+* Transmitter - RKE key fob, other ID device with RKE integrated.
+* Receiver - Body Control ECU, other ECU with integrated RKE.
+* This system consists of features to lock and unlock the automobile which operates by broadcasting radio waves on a particular frequency unidirectionally, implementation of
+ lock feature is shown by LED on on single click and unlock is show by LED off on two clicks on the STM32f407vg board. It also consists feature of activation/deactivation of
+ alarm which is implemented in project showing LED glow rotating in clockwise direction and a feature of approach light is shown by LED glow rotating in anticlockwise
+ direction. This systems implements encryption and rolling code algorithms to prevent car thieves from intercepting and spoofing the telegrams.
 
 
 # Detail requirements
