@@ -1,7 +1,10 @@
 # Description
-A BiCom system is the extention of the unidirectional RKE to bidirectional RKE system. 
--	keyfob -> car (like a unidirectional RKE system) 
--	car -> keyfob (car status information for displaying on the keyfob by LED or display) 
+
+* Bicom system: A BiCom system is the extention of the unidirectional RKE to bidirectional RKE system.
+* keyfob -> car (like a unidirectional RKE system) -> keyfob (car status information for displaying on the keyfob by  display). 
+* Displaying of the car window status is implemented in this project by showing all LED on on a single click on the STM32f407vg board and alarm status is shown by all LED off on
+  two clicks on the board. Displaying of car battery info is implemented in this project by showing all LED on in clockwise direction on three clicks and door status is shown by
+  all LED on in anti-clockwise direction on four clicks on the STM board.
 
 # Detail requirements
 ## High Level Requirements:
@@ -24,4 +27,8 @@ A BiCom system is the extention of the unidirectional RKE to bidirectional RKE s
 
 # SWOT Analysis
 
+![Screenshot (292)](https://user-images.githubusercontent.com/42509490/157890123-973f89c5-c917-4acc-a0fc-30f924fd807e.png)
+
 # 5W's and 1H
+
+![Screenshot (293)](https://user-images.githubusercontent.com/42509490/157894011-c2e0d5e4-c2b9-4d57-9d15-df6977a8cec7.png)
