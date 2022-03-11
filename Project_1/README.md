@@ -1,12 +1,5 @@
 # RKE (Remote Keyless Entry)
 
-## Introduction
-
-## Workflows
-| CppCheck | Codiga | Codacy | 
-| ----- | -------- | -------| 
-|   |   |   |
-
 ## Folder Structure
 | Folder | Description |
 | --- | --- |
@@ -16,3 +9,8 @@
 | `4_TestPlanAndOutput` | Documents with test plan and output |
 | `5_Report` | Report containing all readme files and code |
 | `6_ImagesAndVideos` | Images and Videos of the project |
+
+## Workflows
+| CppCheck | Codiga | Codacy | 
+| ----- | -------- | -------| 
+|   |   |   |
