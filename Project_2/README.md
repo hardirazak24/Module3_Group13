@@ -3,7 +3,7 @@
 ## Introduction
 
 ## Workflows
-| CppCheck | Codiga | Codacy | 
+| CppCheck | Codacy | Codiga | 
 | ----- | -------- | -------| 
 |   | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e018e2f4a73149f0bed4af29d2bb9fd4)](https://www.codacy.com/gh/OmkarChitragar/Module3_Group13/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OmkarChitragar/Module3_Group13&amp;utm_campaign=Badge_Grade) |   |
 
