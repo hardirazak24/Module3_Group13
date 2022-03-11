@@ -1,5 +1,5 @@
-/* Start by Kavya Harigol(99007638), Work - Driver, Counter
-   Hadi Abdul Razak(99007641), Work - Encryption, delay  */
+/* Start by Omakar Chitragar(99007640), Work - Driver, delay
+   Allen Thomas Varghese(99007639), Work -  Counter, Encryption  */
 #include "MyStm32f407xx.h"
 
 #define BTN_PRESSED  ENABLE
@@ -11,10 +11,10 @@
 #define DELAY_COUNT_250MS 		(250U  * DELAY_COUNT_1MS)
 #define DELAY_COUNT_125MS 		(125U  * DELAY_COUNT_1MS)
 
-int lock(void);
-int unlock(void);
+int window(void);
 int alarm(void);
-int light(void);
+int battery(void);
+int door(void);
 void led_on(uint8_t led_no);
 void led_off(uint8_t led_no);
 void cnt_btb(void);
@@ -100,7 +100,7 @@ int main(void)
 		   }
 }
 
-int lock(void)								  //  Function to lock door
+int window(void)								  //  Window Status function
 {
 				led_on(GPIO_PIN_NO_12);
 				led_on(GPIO_PIN_NO_13);
@@ -109,7 +109,7 @@ int lock(void)								  //  Function to lock door
 				delay(500000);
 }
 
-int unlock(void)							   //  Function to unlock door
+int alarm(void)							   //Alarm Status function
 {
 				led_off(GPIO_PIN_NO_12);
 				led_off(GPIO_PIN_NO_13);
@@ -118,7 +118,7 @@ int unlock(void)							   //  Function to unlock door
 				delay(500000);
 }
 
-int alarm(void)									// Function to activate/deactivate alarm
+int battery(void)									// Battry info fuction
 {
 	led_on(GPIO_PIN_NO_12);
 	delay(500000);
@@ -134,7 +134,7 @@ int alarm(void)									// Function to activate/deactivate alarm
 	led_off(GPIO_PIN_NO_15);
 }
 
-int light(void)									// Function to approach light
+int dooe(void)									// door status function
 {
 	led_on(GPIO_PIN_NO_12);
 	delay(500000);
